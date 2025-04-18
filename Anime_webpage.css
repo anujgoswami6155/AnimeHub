@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  background-image:url('Images/One_piece_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Video Section */
+.video-container {
+  background: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-player {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 30px;
+}
+
+/* Left Side - Poster */
+.anime-image img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Right Side - Info */
+.anime-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Title and Metadata */
+.anime-info h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.release-date span,
+.genre span {
+  color: #ddd;
+  font-weight: 500;
+}
+
+.genre {
+  font-weight: bold;
+  background: #333;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 10px 0 20px;
+  color: #00ffff;
+}
+
+/* Description */
+.description p {
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Cast Section */
+.cast-section h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.cast-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cast-card {
+  width: 140px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.cast-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Rating */
+.rating {
+  margin-top: 30px;
+  font-size: 22px;
+  color: gold;
+}
