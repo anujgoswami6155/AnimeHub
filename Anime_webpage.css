@@ -19,7 +19,7 @@ body {
 }
 
 .video-player {
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   height: auto;
   border-radius: 12px;
