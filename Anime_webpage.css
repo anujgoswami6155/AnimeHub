@@ -3,8 +3,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0d0d0d;
-  color: white;
-  background-image:url('One_piece_bg.jpg');
+  color: #f5f5f5;
+  background-image: url('Images/One_piece_bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -13,18 +13,19 @@ body {
 /* Video Section */
 .video-container {
   background: transparent;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   justify-content: center;
 }
 
 .video-player {
-  width: 100%;
-  max-width: 800px;
+  width: 110; /* Enlarge the video frame further */
+  max-width: 1200px; /* Adjust maximum size for larger screens */
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 12px; /* Keeps smooth corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6); /* Slightly larger shadow for emphasis */
 }
+
 
 /* Main Content */
 .main-content {
@@ -74,7 +75,7 @@ body {
 /* Description */
 .description p {
   line-height: 1.6;
-  color: white;
+  color: #ccc;
   margin-bottom: 10px;
 }
 
